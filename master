@@ -1,0 +1,165 @@
+[root@master ~]# journalctl -xe
+mars 28 13:10:53 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:53.674558   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:53 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:53.675639   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:53 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:53.676802   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:53 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:53.677940   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.670471   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.671193   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.672143   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.673203   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.674235   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.675319   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.676386   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.677486   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.678619   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:54 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:54.771700   12824 leaderelection.go:224] error retrieving resource lock kube-s
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.672027   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.672625   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.673237   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.674296   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.675319   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.676385   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.677495   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.678534   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:55 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:55.679623   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com systemd[1]: atomic-openshift-master-api.service holdoff time over, scheduling restart.
+mars 28 13:10:56 master.istic.linsoft.com systemd[1]: Stopped Atomic OpenShift Master API.
+-- Subject: L'unité (unit) atomic-openshift-master-api.service a terminé son arrêt
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- L'unité (unit) atomic-openshift-master-api.service a terminé son arrêt.
+mars 28 13:10:56 master.istic.linsoft.com systemd[1]: Starting Atomic OpenShift Master API...
+-- Subject: L'unité (unit) atomic-openshift-master-api.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- L'unité (unit) atomic-openshift-master-api.service a commencé à démarrer.
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405296     469 start_api.go:104] Using a listen address override "0.0.0.0:8443"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405464     469 plugins.go:83] Registered admission plugin "NamespaceLifecycle"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405471     469 plugins.go:83] Registered admission plugin "Initializers"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405477     469 plugins.go:83] Registered admission plugin "ValidatingAdmissionWebhook
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405482     469 plugins.go:83] Registered admission plugin "MutatingAdmissionWebhook"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405517     469 plugins.go:83] Registered admission plugin "AlwaysAdmit"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405522     469 plugins.go:83] Registered admission plugin "AlwaysPullImages"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405527     469 plugins.go:83] Registered admission plugin "LimitPodHardAntiAffinityTo
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405531     469 plugins.go:83] Registered admission plugin "DefaultTolerationSeconds"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405536     469 plugins.go:83] Registered admission plugin "AlwaysDeny"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405542     469 plugins.go:83] Registered admission plugin "EventRateLimit"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405547     469 plugins.go:83] Registered admission plugin "DenyEscalatingExec"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405551     469 plugins.go:83] Registered admission plugin "DenyExecOnPrivileged"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405555     469 plugins.go:83] Registered admission plugin "ExtendedResourceToleration
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405560     469 plugins.go:83] Registered admission plugin "OwnerReferencesPermissionE
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405567     469 plugins.go:83] Registered admission plugin "ImagePolicyWebhook"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405572     469 plugins.go:83] Registered admission plugin "InitialResources"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405577     469 plugins.go:83] Registered admission plugin "LimitRanger"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405582     469 plugins.go:83] Registered admission plugin "NamespaceAutoProvision"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405587     469 plugins.go:83] Registered admission plugin "NamespaceExists"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405592     469 plugins.go:83] Registered admission plugin "NodeRestriction"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405597     469 plugins.go:83] Registered admission plugin "PersistentVolumeLabel"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405603     469 plugins.go:83] Registered admission plugin "PodNodeSelector"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405608     469 plugins.go:83] Registered admission plugin "PodPreset"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405613     469 plugins.go:83] Registered admission plugin "PodTolerationRestriction"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405618     469 plugins.go:83] Registered admission plugin "ResourceQuota"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405623     469 plugins.go:83] Registered admission plugin "PodSecurityPolicy"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405628     469 plugins.go:83] Registered admission plugin "Priority"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405635     469 plugins.go:83] Registered admission plugin "SecurityContextDeny"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405641     469 plugins.go:83] Registered admission plugin "ServiceAccount"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405647     469 plugins.go:83] Registered admission plugin "DefaultStorageClass"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405652     469 plugins.go:83] Registered admission plugin "PersistentVolumeClaimResiz
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405655     469 plugins.go:83] Registered admission plugin "PVCProtection"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: W0328 13:10:56.406379     469 start_master.go:287] Warning: aggregatorConfig.proxyClientInfo: Invali
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.673006   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.673972   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.675009   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.675741   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.676944   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.677996   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.679007   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.680041   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.681202   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.485456   12824 leaderelection.go:224] error retrieving resource lock kube-s
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.674263   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.674987   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.675802   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.676722   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.677748   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.678906   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.680086   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.681241   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.682241   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.675563   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.676183   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.677050   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.678266   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.679464   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.680484   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.681624   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.683056   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:58 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:58.684010   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.676791   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.677352   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.678304   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.679354   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.680402   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.681557   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.682661   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.683656   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.684720   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:59 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:59.880062   12824 leaderelection.go:224] error retrieving resource lock kube-s
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.678023   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.678671   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.679559   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.680586   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.681817   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.682881   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.684059   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.685179   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:00 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:00.686248   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.679260   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.680011   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.680901   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.681915   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.682910   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:11:01 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:11:01.684072   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405517     469 plugins.go:83] Registered admission plugin "AlwaysAdmit"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405522     469 plugins.go:83] Registered admission plugin "AlwaysPullImages"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405527     469 plugins.go:83] Registered admission plugin "LimitPodHardAntiAffinityTo
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405531     469 plugins.go:83] Registered admission plugin "DefaultTolerationSeconds"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405536     469 plugins.go:83] Registered admission plugin "AlwaysDeny"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405542     469 plugins.go:83] Registered admission plugin "EventRateLimit"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405547     469 plugins.go:83] Registered admission plugin "DenyEscalatingExec"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405551     469 plugins.go:83] Registered admission plugin "DenyExecOnPrivileged"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405555     469 plugins.go:83] Registered admission plugin "ExtendedResourceToleration
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405560     469 plugins.go:83] Registered admission plugin "OwnerReferencesPermissionE
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405567     469 plugins.go:83] Registered admission plugin "ImagePolicyWebhook"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405572     469 plugins.go:83] Registered admission plugin "InitialResources"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405577     469 plugins.go:83] Registered admission plugin "LimitRanger"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405582     469 plugins.go:83] Registered admission plugin "NamespaceAutoProvision"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405587     469 plugins.go:83] Registered admission plugin "NamespaceExists"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405592     469 plugins.go:83] Registered admission plugin "NodeRestriction"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405597     469 plugins.go:83] Registered admission plugin "PersistentVolumeLabel"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405603     469 plugins.go:83] Registered admission plugin "PodNodeSelector"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405608     469 plugins.go:83] Registered admission plugin "PodPreset"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405613     469 plugins.go:83] Registered admission plugin "PodTolerationRestriction"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405618     469 plugins.go:83] Registered admission plugin "ResourceQuota"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405623     469 plugins.go:83] Registered admission plugin "PodSecurityPolicy"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405628     469 plugins.go:83] Registered admission plugin "Priority"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405635     469 plugins.go:83] Registered admission plugin "SecurityContextDeny"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405641     469 plugins.go:83] Registered admission plugin "ServiceAccount"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405647     469 plugins.go:83] Registered admission plugin "DefaultStorageClass"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405652     469 plugins.go:83] Registered admission plugin "PersistentVolumeClaimResiz
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: I0328 13:10:56.405655     469 plugins.go:83] Registered admission plugin "PVCProtection"
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-api[469]: W0328 13:10:56.406379     469 start_master.go:287] Warning: aggregatorConfig.proxyClientInfo: Invali
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.673006   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.673972   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.675009   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.675741   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.676944   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.677996   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.679007   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.680041   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:56 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:56.681202   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.485456   12824 leaderelection.go:224] error retrieving resource lock kube-s
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.674263   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
+mars 28 13:10:57 master.istic.linsoft.com atomic-openshift-master-controllers[12824]: E0328 13:10:57.674987   12824 reflector.go:205] github.com/openshift/origin/vendor/k8s.io/
