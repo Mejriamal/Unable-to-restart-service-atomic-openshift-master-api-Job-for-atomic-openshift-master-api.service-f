@@ -1,0 +1,30 @@
+RUNNING HANDLER [openshift_master : restart master api] ************************************************************************************************************************
+fatal: [master.istic.linsoft.com]: FAILED! => {"changed": false, "failed": true, "msg": "Unable to restart service atomic-openshift-master-api: Job for atomic-openshift-master-api.service failed because the control process exited with error code. See \"systemctl status atomic-openshift-master-api.service\" and \"journalctl -xe\" for details.\n"}
+	to retry, use: --limit @/usr/share/ansible/openshift-ansible/playbooks/deploy_cluster.retry
+
+PLAY RECAP *********************************************************************************************************************************************************************
+localhost                  : ok=12   changed=0    unreachable=0    failed=0   
+master.istic.linsoft.com   : ok=231  changed=25   unreachable=0    failed=1   
+node1.istic.linsoft.com    : ok=27   changed=0    unreachable=0    failed=0   
+node2.istic.linsoft.com    : ok=27   changed=0    unreachable=0    failed=0   
+service.istic.linsoft.com  : ok=29   changed=1    unreachable=0    failed=0   
+workstation.istic.linsoft.com : ok=9    changed=0    unreachable=0    failed=0   
+
+
+INSTALLER STATUS ***************************************************************************************************************************************************************
+Initialization             : Complete (0:00:25)
+Health Check               : Complete (0:00:37)
+etcd Install               : Complete (0:01:34)
+NFS Install                : Complete (0:00:07)
+Master Install             : In Progress (0:02:54)
+	This phase can be restarted by running: playbooks/openshift-master/config.yml
+
+
+
+Failure summary:
+
+
+  1. Hosts:    master.istic.linsoft.com
+     Play:     Configure masters
+     Task:     restart master api
+     Message:  Unable to restart service atomic-openshift-master-api: Job for atomic-openshift-master-api.service failed because the control process exited with error code. See "systemctl status atomic-openshift-master-api.service" and "journalctl -xe" for details.
