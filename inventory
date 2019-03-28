@@ -1,0 +1,55 @@
+[workstation]
+workstation.istic.linsoft.com
+[masters]
+master.istic.linsoft.com
+[etcd]
+master.istic.linsoft.com
+[nfs]
+service.istic.linsoft.com
+[nodes]
+master.istic.linsoft.com
+node1.istic.linsoft.com openshift_node_labels="{'region':’apps’ ,'zone': 'default',’node-role.kubernetes.io/compute’:’true’}"
+node2.istic.linsoft.com openshift_node_labels="{'region': 'infra', 'zone': 'default'}"
+# Create an OSEv3 group that contains the masters and nodes groups
+[OSEv3:children]
+workstation
+masters
+etcd
+nfs
+nodes
+[OSEv3:vars]
+openshift_enable_unsupported_configurations=true
+# Specify the deployment type. Valid values are origin and openshift-enterprise.
+openshift_deployment_type=openshift-enterprise
+#For RPM installations we just verify the version detected in your configured repos matches this release.
+openshift_release="v3.9"
+openshift_image_tag=v3.9.43
+openshift_master_identity_providers=[{'name': 'allow_all', 'login': 'true', 'challenge': 'true', 'kind': 'AllowAllPasswordIdentityProvider'}]
+#openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider', 'filename': '/etc/origin/master/htpasswd'}]
+#openshift_master_htpasswd_users={‘amal’ : ’$apr1$hOgfvgs5$aQkC2wsO.sRPmEvAOvpfT.’ , ‘eya‘ : ’$apr1$a7j53Fe4$b4JQmlKkEGgHcU.LInI/Y1’}
+openshift_master_default_subdomain=apps.istic.linsoft.com
+#openshift_disable_check=memory_availability,disk_availability
+openshift_disable_check=memory_availability,disk_availability,package_version,docker_storage,docker_image_availability
+openshift_master_api_port=8443
+openshift_master_console_port=8443
+os_firewall_use_firewalld=true
+openshift_schedulable=true
+openshift_hosted_registry_storage_kind=nfs
+openshift_hosted_registry_storage_access_modes=['ReadWriteMany']
+openshift_hosted_registry_storage_nfs_directory=/exports
+openshift_hosted_registry_storage_nfs_options='*(rw,root_squash)'
+openshift_hosted_registry_storage_volume_name=registry
+openshift_hosted_registry_storage_volume_size=20Gi
+openshift_hosted_etcd_storage_kind=nfs
+openshift_hosted_etcd_storage_nfs_options="*(rw,root_squash,sync,no_wdelay)"
+openshift_hosted_etcd_storage_nfs_directory=/opt/osev3-etcd
+openshift_hosted_etcd_storage_volume_name=etcd-vol2
+openshift_hosted_etcd_storage_access_modes=["ReadWriteOnce"]
+openshift_hosted_etcd_storage_volume_size=10G
+openshift_hosted_etcd_storage_labels={'storage': 'etcd'}
+#openshift_hosted_router_replicas=1
+#openshift_router_selector='region=infra'
+#openshift_registry_selector='region=infra'
+
+
+                                                                                                                                                              1,1          Haut
